@@ -16,9 +16,9 @@ namespace street_fighter_character_selection
               new string[] { "Ken", "Chun Li", "Zangief", "Dhalsim", "Sagat", "M.Bison" },
           };
 
-            // string[] moves = new string[] { "up", "left", "right", "left", "left" };
+            string[] moves = new string[] { "up", "left", "right", "left", "left" };
             // string[] moves = new string[] { "right", "down", "left", "left", "left", "left", "right" };
-            string[] moves = new string[] { "left", "left", "left", "left", "left", "left", "left", "left" };
+            // string[] moves = new string[] { "left", "left", "left", "left", "left", "left", "left", "left" };
             int[] position = new int[] { 0, 0 };
             StreetFighterSelection(fighters, position, moves);
         }
@@ -29,14 +29,6 @@ namespace street_fighter_character_selection
             int startX = position[1];
             int startY = position[0];
             List<string> sff = new List<string>();
-            for (int i = 0; i < fighters.Length; i++)
-            {
-                for (int j = 0; j < fighters[i].Length; j++)
-                {
-
-                }
-
-            }
 
             for (var i = 0; i < moves.Length; i++)
             {
